@@ -30,11 +30,11 @@ document.querySelectorAll('.ml').forEach(link => {
 window.addEventListener('scroll', () => {
   const nav = document.getElementById('nav');
   if (window.scrollY > 60) {
-    nav.style.height = '50px';
-    nav.style.boxShadow = '0 2px 24px rgba(0,0,0,.07)';
+    nav.style.height = '';
+    nav.style.boxShadow = 'none';
   } else {
     nav.style.height = '';
-    nav.style.boxShadow = '';
+    nav.style.boxShadow = 'none';
   }
 });
 
